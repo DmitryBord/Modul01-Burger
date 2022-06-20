@@ -462,6 +462,79 @@ main {
 	opacity: 1;
 }
 
+/*  Responsive menu */
+
+@media (max-width: 1000px) {
+	.container {
+		max-width: 738px;
+	}
+
+	.header {
+		padding: 26px 0px 29px 0px;
+	}
+
+	.header-logo {
+		width: 150px;
+		height: 47.81px;
+		background-size: contain;
+	}
+
+	.header-nav {
+		gap: 22px;
+		margin: 4px 62px 0px 0px;
+	}
+
+	.button {
+		margin: 0px 2px 9px 0px;
+	}
+
+	.bg {
+		margin: 0px 0px 72px 0px;
+	}
+
+	.title {
+		margin: 18px 0px 20px 11px;
+	}
+
+	.banner-box {
+		background-position: -80px center;
+		padding: 100px 40px 120px 40px;
+	}
+
+	.menu {
+		margin: 45px 0px 100px 0px;
+	}
+
+	.menu-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px 15px;
+		margin: 0px 0px 62px 0px;
+	}
+
+	.footer-row {
+		flex-wrap: wrap;
+		padding: 60px 0px;
+
+	}
+
+	.footer-icon {
+		margin: 2px 0px 0px 0px;
+	}
+
+	.footer-links {
+		margin: 7px 0px 0px 0px;
+	}
+
+	.footer-info {
+		margin: 7px -4px 0px 0px;
+	}
+
+	.footer-phones {
+		margin: -19px 0px 0px 140px;
+	}
+
+}
+
 /* styles index */
 
 .wrapper {}
@@ -646,77 +719,43 @@ main {
 	margin: 0px 0px 13px 0px;
 }
 
-/*  Responsive  */
+
+/*  Responsive index */
 
 @media (max-width: 1000px) {
-	.container {
-		max-width: 738px;
+
+	.baner-item {
+		padding: 44px 0px 122px 0px;
 	}
 
-	.header {
-		padding: 26px 0px 29px 0px;
+	.baner-subtitle {
+		font-size: 22px;
+		margin: 0px 0px 12px 0px;
 	}
 
-	.header-logo {
-		width: 150px;
-		height: 47.81px;
-		background-size: contain;
+	.baner-title {
+		font-size: 86px;
+		margin: 0px 0px 24px 0px;
 	}
 
-	.header-nav {
-		gap: 22px;
-		margin: 4px 62px 0px 0px;
+	.baner-text {
+		font-size: 14px;
+		max-width: 405px;
+		margin: 0px 0px 50px 0px;
 	}
 
-	.button {
-		margin: 0px 2px 9px 0px;
+	.baner-order {
+		padding: 15px 37px;
 	}
 
-	.bg {
-		margin: 0px 0px 72px 0px;
+	.baner-bg {
+		width: 198px;
 	}
 
-	.title {
-		margin: 18px 0px 20px 11px;
+	.baner-img img {
+		height: 516px;
+		width: 496px;
+		top: 115px;
+		right: -125px;
 	}
-
-	.banner-box {
-		background-position: -80px center;
-		padding: 100px 40px 120px 40px;
-	}
-
-	.menu {
-		margin: 45px 0px 100px 0px;
-	}
-
-	.menu-grid {
-		grid-template-columns: repeat(2, 1fr);
-		gap: 20px 15px;
-		margin: 0px 0px 62px 0px;
-	}
-
-	.footer-row {
-		flex-wrap: wrap;
-		padding: 60px 0px;
-
-	}
-
-	.footer-icon {
-		margin: 2px 0px 0px 0px;
-	}
-
-	.footer-links {
-		margin: 7px 0px 0px 0px;
-	}
-
-	.footer-info {
-		margin: 7px -4px 0px 0px;
-	}
-
-	.footer-phones {
-		margin: -19px 0px 0px 140px;
-	}
-
-
-
 }
