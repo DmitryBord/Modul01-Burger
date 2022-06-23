@@ -994,13 +994,13 @@ main {
 	}
 }
 
-@media(max-width:1025px) {
+@media(max-width:1112px) {
 	.baner-title {
 		font-size: 100px;
 	}
 
 	.baner-img img {
-		width: 760px;
+		width: 740px;
 	}
 }
 
