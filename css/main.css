@@ -482,7 +482,7 @@ main {
 
 .burger {
 	height: 34px;
-	width: 22px;
+	width: 34px;
 	background: url(../image/burger.svg) 0 center/contain no-repeat;
 	background-color: transparent;
 	border: none;
@@ -731,7 +731,7 @@ main {
 	}
 
 	.header {
-		padding: 26px 0px 29px 0px;
+		padding: 26px 0px 17px 0px;
 		gap: 100px;
 	}
 
@@ -750,7 +750,7 @@ main {
 	}
 
 	.bg {
-		margin: 0px 0px 72px 0px;
+		margin: 0px 0px 33px 0px;
 	}
 
 	.title {
@@ -892,7 +892,7 @@ main {
 	.footer-row {
 		flex-direction: column;
 		padding: 61px 0px 31px 0px;
-		gap: 0px 0px;
+		gap: 5px 0px;
 	}
 
 	.footer-top {
@@ -908,7 +908,7 @@ main {
 	}
 
 	.footer-links {
-		margin: 0px 0px 33px 0px;
+		margin: 0px 0px 13px 0px;
 	}
 
 	.footer-info {
@@ -940,7 +940,7 @@ main {
 	}
 
 	.baner-item {
-		padding: 42px 0px 186px 0px;
+		padding: 48px 0px 183px 0px;
 	}
 
 	.baner-img img {
@@ -951,10 +951,12 @@ main {
 
 	.baner-subtitle {
 		font-size: 14px;
+		margin: 0px 0px 17px 0px;
 	}
 
 	.baner-title {
 		font-size: 58px;
+		margin: 0px 0px 29px 0px;
 	}
 
 	.baner-text {
@@ -963,6 +965,7 @@ main {
 
 	.baner-order {
 		font-size: 13px;
+		padding: 15px 39px;
 	}
 
 	.promo {
@@ -977,34 +980,41 @@ main {
 	.promo-left {
 		background-size: cover;
 		overflow: hidden;
-		padding: 40px 15px 58px 15px;
+		padding: 40px 15px 56px 15px;
+	}
+
+	.promo-sale {
+		padding: 5px 21px;
 	}
 
 	.promo-cost {
 		font-size: 55px;
+		margin: 4px 0px 2px 0px;
 	}
 
 	.promo-description {
 		font-size: 13px;
+		margin: 0px 0px 0px 0px;
 	}
 
 	.promo-right {
 		background-size: cover;
 		overflow: hidden;
-		padding: 80px 12px 45px 12px;
+		padding: 41px 12px 45px 12px;
 	}
 
 	.promo-free {
 		font-size: 39px;
 	}
 
-	.promo-description {
+	.promo-right .promo-description {
 		font-size: 15px;
+		margin: 17px 0px 22px 0px;
 	}
 
 	.promo a {
 		font-size: 13px;
-		padding: 18px 31px;
+		padding: 18px 32px;
 	}
 }
 
@@ -1029,7 +1039,7 @@ main {
 
 	.title {
 		font-size: 38px;
-		margin: 22px 0px 8px 0px;
+		margin: 27px 0px 14px 0px;
 	}
 
 	.describtion {
@@ -1037,7 +1047,7 @@ main {
 	}
 
 	.bg {
-		padding: 55px 0px;
+		padding: 55px 0px 56px 0px;
 	}
 
 	.banner-box {
@@ -1045,8 +1055,12 @@ main {
 		padding: 35px 28px 54px 15px;
 	}
 
+	.banner-title {
+		margin: 0px 0px 14px 0px;
+	}
+
 	.banner-title span {
-		margin: 0px 0px 3px 0px;
+		margin: 0px 0px 8px 0px;
 	}
 
 	.banner-text {
@@ -1055,11 +1069,15 @@ main {
 	}
 
 	.banner-link {
-		padding: 20px 11px;
+		padding: 18px 26px;
+	}
+
+	.menu {
+		margin: 56px 0px 63px 0px;
 	}
 
 	.menu-header {
-		margin: 5px 0px 24px 0px;
+		margin: 5px 0px 32px 0px;
 	}
 
 	.menu-title {
@@ -1068,10 +1086,11 @@ main {
 	}
 
 	.menu-select {
-		padding: 8px 20px;
+		padding: 8px 14px;
 		flex-basis: 136px;
 		font-size: 12px;
 		cursor: pointer;
+		background-position: 91.3% 60%;
 	}
 
 	.menu-grid {
@@ -1085,7 +1104,7 @@ main {
 	}
 
 	.menu-additional {
-		margin: 0px 0px 41px 0px;
+		margin: 0px 0px 36px 0px;
 	}
 
 	.menu-grid-cover img {
@@ -1100,7 +1119,7 @@ main {
 
 	.menu-grid-price {
 		font-size: 16px;
-		margin: 0px 0px 7px 0px;
+		margin: 0px 0px 11px 0px;
 	}
 
 	.menu-grid-btn {
@@ -1111,7 +1130,7 @@ main {
 
 	.menu-other {
 		height: 352px;
-		margin: 50px 0px 61px 0px;
+		margin: 50px 0px 46px 0px;
 	}
 }
 
@@ -1138,14 +1157,23 @@ main {
 }
 
 @media(max-width:321px) {
+	.breadcrumbs {
+		margin: 0px 0px 0px 0px;
+	}
+
 	.menu-header {
 		gap: 21px;
 	}
 
+	.menu-grid-title {
+		font-size: 13px;
+		margin: 9px 0px 8px 0px;
+	}
+
 	.baner-img img {
 		width: 298px;
-		height: 297px;
-		top: -217px;
-		right: -80px;
+		height: 303px;
+		top: -220px;
+		right: -98px;
 	}
 }
