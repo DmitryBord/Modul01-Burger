@@ -264,6 +264,8 @@ nav {
 	border: 1px solid #DEDEDE;
 	padding: 9px 30px;
 	border-radius: 22px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	appearance: none;
 	flex-basis: 279px;
 	background: url(..//image/arrow.svg) 89.3% center/12.79px 7.75px no-repeat;
@@ -293,6 +295,7 @@ nav {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-o-object-fit: cover;
 	object-fit: cover;
 	width: 100%;
 	height: 430px;
@@ -348,8 +351,6 @@ main {
 	font-family: 'Nunito Sans', sans-serif;
 	background-color: #1E2F40;
 }
-
-.container {}
 
 .footer-row {
 	display: flex;
@@ -484,8 +485,6 @@ main {
 }
 
 /* Modal burger */
-.header-burger {}
-
 .burger {
 	height: 34px;
 	width: 22px;
@@ -847,8 +846,6 @@ main {
 	line-height: 140%;
 }
 
-
-
 .baner-order {
 	list-style-type: none;
 	background-color: #FBB731;
@@ -932,14 +929,10 @@ main {
 	padding: 116px 50px;
 }
 
-
-
 .promo-right {
 	background: url(../image/promo_right.png) no-repeat;
 	padding: 105px 50px;
 }
-
-
 
 .promo-sale {
 	display: inline-block;
