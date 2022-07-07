@@ -771,7 +771,7 @@ main {
 
 	.menu-other {
 		height: 702px;
-
+		overflow: hidden;
 	}
 
 	.menu-other .menu-grid {
@@ -779,15 +779,20 @@ main {
 		width: auto;
 		overflow-x: scroll;
 		overflow-y: hidden;
-		padding-bottom: 50px;
+		padding-bottom: 500px;
 	}
 
 	.menu-other .menu-grid-item {
 		flex: 0 0 281px;
 	}
 
+	.other {
+		height: 430px;
+		width: 380px;
+	}
+
 	.menu-other .menu-grid-cover img {
-		height: 320px;
+		height: 100%;
 	}
 
 	.footer-row {
@@ -1091,7 +1096,7 @@ main {
 
 	.menu-grid {
 		gap: 24px 12px;
-		margin: 0px 0px 50px 0px;
+		margin: 0px 0px 0px 0px;
 	}
 
 
@@ -1130,7 +1135,7 @@ main {
 	}
 
 	.menu-other {
-		height: auto;
+		height: 110vw;
 		margin: 50px 0px 46px 0px;
 	}
 
@@ -1162,6 +1167,7 @@ main {
 }
 
 @media(max-width: 361px) {
+
 	.menu-other .menu-grid-item {
 		flex: 0 0 131px;
 	}
